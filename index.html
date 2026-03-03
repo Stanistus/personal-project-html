@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Ensures proper text encoding -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Makes the page responsive on different screen sizes -->
+
+    <title>Idoko Stanistus Chibuzo | Personal Profile</title>
+    <!-- Page title shown on the browser tab -->
+</head>
+
+<body>
+    <!-- 
+      HEADER SECTION
+      Usually contains introductory content or branding
+    -->
+    <header>
+        <h1>My Personal Profile Website - Stanistus Idoko</h1>
+        <p>HTML Fundamentals — Personal Project</p>
+    </header>
+
+    <!-- 
+      NAVIGATION SIDEBAR
+      Contains anchor links that scroll to sections on the same page
+    -->
+    <nav>
+        <!-- Your name at the top of the sidebar -->
+        <h2>Idoko Stanistus Chibuzo</h2>
+
+        <!-- Unordered list for navigation links -->
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- 
+      MAIN CONTENT AREA
+      Holds all the main sections of the webpage
+    -->
+    <main>
+
+        <!-- HOME SECTION -->
+        <section id="home">
+            <!-- Main heading for the home section -->
+            <h1>Welcome to My Profile</h1>
+
+            <!-- Introduction paragraph -->
+            <p>
+                Hello! My name is <strong>Idoko Stanistus Chibuzo</strong>. 
+                Welcome to my personal profile website where you can learn more 
+                about my background, education, hobbies, and how to contact me.
+            </p>
+
+            <!-- Image (you can replace the src with your own photo) -->
+            <img 
+                src="photo.jpeg" 
+                alt="Profile photo of Stanistus Idoko" width="150">
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <!-- First paragraph -->
+            <p>
+                I am a passionate learner currently training in 
+                <em>Full-Stack Web Development</em>. I enjoy learning new technologies 
+                and building projects that solve real-world problems.
+            </p>
+
+            <!-- Second paragraph -->
+            <p>
+                Aside from technology, I value personal growth, teamwork, and 
+                continuous improvement. I believe consistency and discipline are 
+                key to success in any field.
+            </p>
+
+            <!-- List of personal facts -->
+            <ul>
+                <li>I enjoy learning new skills</li>
+                <li>I like working on personal projects</li>
+                <li>I am committed to self-development</li>
+            </ul>
+        </section>
+
+        <!-- EDUCATION SECTION -->
+        <section id="education">
+            <h2>Education</h2>
+
+            <!-- Table showing academic history -->
+            <table border="1">
+                <!-- Table header -->
+                <thead>
+                    <tr>
+                        <th>School Name</th>
+                        <th>Year</th>
+                        <th>Qualification / Level</th>
+                    </tr>
+                </thead>
+                        
+                <!-- Table body -->
+                <tbody>
+                    <tr>
+                        <td>Community Primary School Ogrute</td>
+                        <td>2012</td>
+                        <td>First School Leaving</td>
+                    </tr>
+                    <tr>
+                        <td>Boys' Secondary School Ovoko</td>
+                        <td>2018</td>
+                        <td>WAEC/SSCE</td>
+                    </tr>
+                    <tr>
+                        <td>University of Nigeria Nsukka</td>
+                        <td>2024</td>
+                        <td>BSc Human Physiology</td>
+                    </tr>                          
+               </tbody>
+            </table>
+        </section>
+
+        <!-- HOBBIES SECTION -->
+        <section id="hobbies">
+            <h2>Hobbies & Interests</h2>
+
+            <!-- Short description -->
+            <p>
+                In my free time, I enjoy activities that help me relax, 
+                stay creative, and improve myself.
+            </p>
+
+            <!-- Unordered list of hobbies -->
+            <ul>
+                <li>Reading</li>
+                <li>Coding</li>
+                <li>Learning new technologies</li>
+                <li>Listening to music</li>
+                <li>Problem solving</li>
+            </ul>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <!-- Contact form -->
+            <form action="#" method="post">
+                
+                <!-- Full Name Field -->
+                <label for="fullname">Full Name:</label><br>
+                <input 
+                    type="text" 
+                    id="fullname" 
+                    name="fullname" 
+                    required>
+                <br><br>
+
+                <!-- Email Address Field -->
+                <label for="email">Email Address:</label><br>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    required>
+                <br><br>
+
+                <!-- Message Field -->
+                <label for="message">Message:</label><br>
+                <textarea 
+                    id="message" 
+                    name="message" 
+                    rows="5" 
+                    cols="30" 
+                    required>
+                </textarea>
+                <br><br>
+
+                <!-- Submit Button -->
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <p>&copy; 2024 Idoko Stanistus Chibuzo. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
